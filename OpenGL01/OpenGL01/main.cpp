@@ -6,6 +6,7 @@ int main(int argc, const char * argv[]) {
     if(!glfwInit()){
         return -1;
     }
+    
     win = glfwCreateWindow(640, 480, "OpenGL Base Project", NULL, NULL);
     if(!win)
     {
